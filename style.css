@@ -13,7 +13,9 @@ ul{
     padding: 0;
 }
 #container{
-    width: 360px;
+    width: 500px;
+    max-height: 700px;
+    overflow: scroll;
     margin: 100px auto;
     box-shadow: 0 0 3px rgba(0, 0, 0, 5);
 }
@@ -22,8 +24,8 @@ input{
     font-size: 18px;
     background-color: #f4f4f4;
     width: 100%;
-    padding: 13px 13px 13px 20px;
-    border: none;
+    padding: 0px;
+    border: solid;
     
 }
 input:focus{
@@ -49,11 +51,13 @@ li{
     height: 60px;
     line-height: 60px;
     padding: 0 0 0 20px;
+    font-size: 20px;
 }
 li:nth-child(2n){
-    background-color: #455a64;
+    background-color: #627d8a;
 }
 .done{
-    color: gray;
+    color: black;
     text-decoration: line-through;
+    text-decoration-color: red;
 }
